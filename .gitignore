@@ -1,0 +1,23 @@
+/target/
+
+# Eclipse
+.settings/
+.classpath
+.project
+.metadata/
+**/bin
+*.log
+
+
+# IntelliJ
+.idea/
+*.iml
+
+#NetBeans
+**/nb-configuration.xml
+**/nbactions.xml
+**/nbproject/
+
+
+.DS_Store
+/target/
