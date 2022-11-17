@@ -21,7 +21,7 @@ public class Producer { // otsylaet soobsenia
 	@Resource(name = "java:/jboss/exported/jms/queue/test") // ochered w kot my hotim czto-to polozit
 	private Destination destination;  // punkt naznaczenia
 	
-	@Schedule(hour ="*", minute = "*", second = "*/5", persistent = false) //raz w sec
+	@Schedule(hour ="*", minute = "*", second = "*/30", persistent = false) //raz w sec
 	public void produceMessage() {
 		try {
 			Connection connection = connectionFactory.createConnection();
